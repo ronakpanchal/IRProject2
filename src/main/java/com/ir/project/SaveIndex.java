@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by ronak on 10/6/2016.
+ * Created by ronak
  */
 public class SaveIndex {
 
@@ -45,7 +45,9 @@ public class SaveIndex {
         }
 
     }
-    public Map<String,List<Integer>> getPostings(){
+    public Map<String,List<Integer>> getIndex(){
         return postings;
     }
+
+
 }
